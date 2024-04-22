@@ -16,7 +16,7 @@ jobs:
 
       # build and deploy new version of the slides
       - name: Build slides 🏗
-        run: npm run slides:build -- --base /cypress-visual-testing-workshop/
+        run: npm run build -- --base /cypress-visual-testing-workshop/
 
       - name: Show the built folder 📋
         run: ls -la dist
