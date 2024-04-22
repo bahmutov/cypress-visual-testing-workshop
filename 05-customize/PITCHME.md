@@ -169,4 +169,4 @@ Much closer.
 - you can control the device scale factor using CDP
 - `odiff` can ignore (a little) tiny pixel differences at the edges of sharp lines
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [01-basic](?p=01-basic) chapter
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [06-diff](?p=06-diff) chapter
