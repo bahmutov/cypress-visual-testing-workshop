@@ -27,8 +27,6 @@ For this exercise, a good idea is to fork the repository so you can see your own
 
 ## Finish the workflow file
 
-+++
-
 ```yml
 # .github/workflows/ci.yml
 
@@ -123,7 +121,7 @@ On Mac local images are 2000x1380.
 
 ---
 
-## Normalize device scale factor
+## Normalize the device scale factor
 
 Using branch `b5` as the starting point
 
@@ -142,6 +140,8 @@ $ npm install
 
 +++
 
+## cypress-cdp
+
 ```js
 // https://github.com/bahmutov/cypress-cdp
 import 'cypress-cdp'
@@ -154,7 +154,7 @@ it('...', () => {
 
 +++
 
-## Set device scale using CDP
+## Set the device scale using CDP
 
 ```js
 // cypress/e2e/login.cy.ts
