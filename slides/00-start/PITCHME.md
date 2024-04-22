@@ -1,39 +1,23 @@
-## ☀️ Starting new projects
+## ☀️ Functional Testing For Styles
 
 ### 📚 You will learn
 
-- Cypress folder structure
-- Writing the first test
-- Setting up intelligent code completion
-- Cypress documentation
+- Asserting styles
+- Declared vs computed styles
+- Command - Assertion - Command - Assertion
 
 ---
 
-## Quick check: Node.js
+## Confirm the error styles
 
-```bash
-$ node -v
-v18.14.2
-$ npm -v
-9.5.0
-# optional:
-$ yarn -v
-1.22.19
+Using branch `a2` as the starting point
+
+```
+$ git checkout a2
+$ npm install
 ```
 
-If you need to install Node, see [Basics Requirements](https://github.com/bahmutov/cypress-workshop-basics#requirements) and 📹 [Install Node and Cypress](https://www.youtube.com/watch?v=09KbTRLrgWA)
-
----
-
-## Todo: make a new project and add Cypress
-
-Create a new folder
-
-- `cd /tmp`
-- `mkdir example`
-- `cd example`
-- `npm init --yes`
-- `npm install -D cypress`
+**Tip:** to remove your old work, use `git reset --hard`
 
 +++
 
@@ -133,15 +117,15 @@ module.exports = defineConfig({
   viewportHeight: 1000,
   e2e: {
     // end-to-end settings
-    baseUrl: 'http://localhost:3000'
+    baseUrl: 'http://localhost:3000',
   },
   component: {
     // component testing settings
     devServer: {
       framework: 'create-react-app',
-      bundler: 'webpack'
-    }
-  }
+      bundler: 'webpack',
+    },
+  },
 })
 ```
 
