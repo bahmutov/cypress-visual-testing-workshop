@@ -92,11 +92,11 @@ Jump to: [00-styles](?p=00-styles), [01-waiting](?p=01-waiting), [02-no-style](?
 2. We do together
 3. You do and I help
 
-Test repo [bahmutov/visual-store](https://github.com/bahmutov/visual-store)
+Test repo https://github.com/bahmutov/visual-store
 
 +++
 
-Test repo [bahmutov/visual-store](https://github.com/bahmutov/visual-store)
+Test repo https://github.com/bahmutov/visual-store
 
 Each exercise is a branch like `a1`, `a2`, etc. These branches are starting points
 
@@ -109,14 +109,14 @@ $ npm install
 
 ## Requirements
 
-You will need:
-
-- `git` to clone this repo
-- Node v20+ to install dependencies
+- A GitHub account
+- fork the exercise repo https://github.com/bahmutov/visual-store
+- `git` to clone the repo to your local machine
+- Node v20+
 
 ```text
 git clone <repo url>
-cd visual store
+cd visual-store
 npm install
 ```
 
@@ -126,7 +126,8 @@ npm install
 
 ## The app
 
-`npm start` to see the app by itself. To run the app AND open Cypress using `npm run dev`
+- `npm start` runs the app by itself
+- `npm run dev` runs the app and opens Cypress
 
 +++
 
@@ -134,7 +135,7 @@ npm install
 
 +++
 
-## a1
+## Lesson a1
 
 Let's write 3 small tests for app Login
 
@@ -242,7 +243,7 @@ it('successful logs in', () => {
 
 +++
 
-## Finished all tests
+## Finished tests
 
 ![The tests](./img/tests.png)
 
@@ -257,4 +258,4 @@ it('successful logs in', () => {
 
 ## End of introduction
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or go to the [00-start](?p=00-start) chapter
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or go to the [00-styles](?p=00-styles) chapter

@@ -34,6 +34,8 @@ cy.get(selector).invoke('css', style)
 
 +++
 
+## Finish the test
+
 ```js
 it('gets the computed style using $.css', () => {
   // get the error message container
@@ -106,13 +108,17 @@ $ npm install
 
 +++
 
-Can we get the final CSS style?
+## Get The Final Style
+
+Try getting the background color using each of these methods:
 
 - using `window.getComputedStyle` inside `cy.then(callback)`
 - using `cy.invoke('css', 'background-color')`
 - using `have.css` assertion
 
 +++
+
+## Finish the test
 
 ```js
 it('gets the computed style using $.css', () => {
@@ -144,6 +150,8 @@ cy.get('.error-message-container')
   .should('equal', 'rgb(226, 35, 26)')
 ```
 
+**Question:** why does it not work?
+
 +++
 
 ## The solution 2/3
@@ -154,6 +162,8 @@ cy.get('.error-message-container')
   .invoke('css', 'background-color')
   .should('equal', 'rgb(226, 35, 26)')
 ```
+
+**Question:** why does it work?
 
 +++
 
@@ -167,6 +177,8 @@ cy.get('.error-message-container').should(
   'rgb(226, 35, 26)',
 )
 ```
+
+**Question:** why does it work?
 
 ---
 
@@ -182,6 +194,8 @@ $ npm install
 **Tip:** to remove your old work, use `git reset --hard`
 
 +++
+
+## Finish the test
 
 ```js
 it('freezes all CSS animations', () => {
@@ -242,7 +256,7 @@ $ npm install
 
 +++
 
-In the previous retries, the value of CSS property was know
+In the previous retries, the value of CSS property was known
 
 ```js
 // using cy.invoke "css" method
@@ -272,6 +286,8 @@ cy.get('#message').stable('text')
 See [cypress-map](https://github.com/bahmutov/cypress-map) plugin README.
 
 +++
+
+## Finish the test
 
 ```js
 it('waits for the CSS property to stop changing', () => {
