@@ -19,6 +19,8 @@ $ npm run dev
 
 +++
 
+## Finish the test
+
 ```js
 it('takes screenshots', () => {
   cy.get(selectors.username).type(user.username)
@@ -162,6 +164,20 @@ The new screenshot
 Using `odiff` command let's find and highlight all pixels with different color values
 
 ```
+$ npx odiff <gold image> \
+  <screenshot image> \
+  <output diff image>
+```
+
+**Tip:** see `npx odiff --help`
+
++++
+
+## Compare images
+
+Using `odiff` command let's find and highlight all pixels with different color values
+
+```
 $ npx odiff cypress/gold/login.cy.ts/login-page.png \
   cypress/screenshots/login.cy.ts/login-page.png \
   cypress/screenshots/login.cy.ts/login-page-diff.png \
@@ -205,12 +221,12 @@ it('logs in', () => {
 ```js
 it('logs in', () => {
   cy.get('.error-message-container').should('be.empty')
-  cy.screenshot('login-page', { overwrite: true })
+  cy.screenshot('login-page', { overwrite: true }) // one
   cy.get(selectors.username).type(user.username)
   cy.get(selectors.password).type('wrong-password')
   cy.get(selectors.loginButton).click()
   cy.get('.error-message-container').should('not.be.empty')
-  cy.screenshot('login-error', { overwrite: true })
+  cy.screenshot('login-error', { overwrite: true }) // two
 })
 ```
 
@@ -244,7 +260,10 @@ Now check out the Git branch `b3-css`
 $ git checkout b3-css
 ```
 
-There are some CSS changes between `b3` and `b3-css`. Can you generate the screenshots and diff them again? How many different pixels did it find?
+There are some CSS changes between `b3` and `b3-css`.
+
+- Can you generate the screenshots and diff them again?
+- How many different pixels did it find?
 
 +++
 
@@ -262,8 +281,8 @@ Login error page diff image
 
 ## 🏁 Conclusions
 
-- `cy.screenshot` command saves the app or element looks
-- 3rd-party plugin `odiff` compares "gold" images with the current screenshots
+- `cy.screenshot` command captures the app or an element
+- 3rd-party plugin `odiff` compares the "gold" images with the current screenshots
 - even a small CSS change can lead to large image differences
 
 ➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [04-ci](?p=04-ci) chapter

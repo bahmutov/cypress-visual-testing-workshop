@@ -45,6 +45,8 @@ This is the script `dev:build` runs in our `package.json` file
 }
 ```
 
+We are changing the `baseUrl` to point at `http://127.0.0.1:4173`
+
 +++
 
 Modify the `beforeEach` hook in the `login.cy.ts` spec file
@@ -57,6 +59,8 @@ beforeEach(() => {
   cy.visit('/')
 })
 ```
+
+**Hint:** see the https://on.cypress.io/intercept command documentation
 
 +++
 
