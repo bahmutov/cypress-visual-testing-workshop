@@ -242,41 +242,19 @@ it('successful logs in', () => {
 
 +++
 
-Look at `todomvc/index.html` - main app DOM structure
+## Finished all tests
 
-![DOM](./img/DOM.png)
-
-+++
-
-Look at `todomvc/app.js`
-
-![Application](./img/app.png)
+![The tests](./img/tests.png)
 
 +++
 
-## Questions
+## More functional tests
 
-- what happens when you add a new Todo item? <!-- .element: class="fragment" -->
-- how does it get to the server? <!-- .element: class="fragment" -->
-- where does the server save it? <!-- .element: class="fragment" -->
-- what happens on start up? <!-- .element: class="fragment" -->
-
-Note:
-The students should open DevTools and look at XHR requests that go between the web application and the server. Also the students should find `todomvc/data.json` file with saved items.
-
----
-
-![Application architecture](./img/vue-vuex-rest.png)
-
-Note:
-This app has been coded and described in this blog post [https://www.cypress.io/blog/2017/11/28/testing-vue-web-application-with-vuex-data-store-and-rest-backend/](https://www.cypress.io/blog/2017/11/28/testing-vue-web-application-with-vuex-data-store-and-rest-backend/)
-
-+++
-
-This app has been coded and described in this blog post [https://www.cypress.io/blog/2017/11/28/testing-vue-web-application-with-vuex-data-store-and-rest-backend/](https://www.cypress.io/blog/2017/11/28/testing-vue-web-application-with-vuex-data-store-and-rest-backend/)
+- 🎓 "Testing The Swag Store" course [https://cypress.tips/courses/swag-store](https://cypress.tips/courses/swag-store)
+- Let's move to the styles
 
 ---
 
 ## End of introduction
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-workshop-basics#contents) or go to the [00-start](?p=00-start) chapter
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or go to the [00-start](?p=00-start) chapter
