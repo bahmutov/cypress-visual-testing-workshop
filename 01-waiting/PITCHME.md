@@ -309,4 +309,4 @@ cy.get('.error-message-container').stable('css', 'background-color', 100)
 - dealing with CSS animations
 - waiting for CSS to be stable
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [01-basic](?p=01-basic) chapter
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [02-no-style](?p=02-no-style) chapter
