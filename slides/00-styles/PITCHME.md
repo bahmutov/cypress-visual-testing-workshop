@@ -156,4 +156,4 @@ cy.get(selectors.username)
 - changing element's color
 - changing element's classes
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [01-basic](?p=01-basic) chapter
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [01-waiting](?p=01-waiting) chapter
