@@ -14,6 +14,10 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install dependencies 📦
+        # https://github.com/bahmutov/npm-install
+        uses: bahmutov/npm-install@v1
+
       # build and deploy new version of the slides
       - name: Build slides 🏗
         run: npm run build -- --base /cypress-visual-testing-workshop/
