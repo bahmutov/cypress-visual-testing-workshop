@@ -1,0 +1,1 @@
+# Cypress Visual Testing Workshop
