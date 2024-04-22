@@ -25,6 +25,8 @@ $ npm install
 
 +++
 
+## Finish this test
+
 ```js
 it('wrong password', () => {
   cy.get(selectors.username).type(user.username)
@@ -52,6 +54,8 @@ it('wrong password', () => {
 ![A2 elements](./img/a2-elements.png)
 
 +++
+
+## Finished test
 
 ```js
 cy.location('pathname').should('equal', '/')
@@ -84,6 +88,8 @@ $ npm install
 
 +++
 
+## Finish the test
+
 ```js
 // confirm the error message is red
 // (the background color is rgb(226, 35, 26))
@@ -99,6 +105,8 @@ cy.get('.error-message-container')
 **Tip:** there is [$.css](https://learn.jquery.com/using-jquery-core/css-styling-dimensions/) method.
 
 +++
+
+## Finished test
 
 ```js
 cy.get('.error-message-container').invoke('css', 'background-color', 'green')
@@ -132,7 +140,7 @@ $ npm install
 
 The input element shows the red border on the bottom. Where is this style coming from? I think it is set by the CSS "error" class. Let's confirm it by removing the "error" class from the input element and checking the computed style.
 
-Modify the `login.cy.ts` spec following the comments.
+Todo: Modify the `login.cy.ts` spec following the comments.
 
 +++
 
