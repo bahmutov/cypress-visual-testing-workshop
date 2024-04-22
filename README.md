@@ -11,4 +11,5 @@ Waiting | [01-waiting](slides/01-waiting/PITCHME.md) | [link](https://glebbahmut
 No styles | [02-no-style](slides/02-no-style/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=02-no-style)
 Screenshots | [03-screenshots](slides/03-screenshots/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=03-screenshots)
 CI | [04-ci](slides/04-ci/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=04-ci)
+Customize | [05-customize](slides/05-customize/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=05-customize)
 <!-- prettier-ignore-end -->

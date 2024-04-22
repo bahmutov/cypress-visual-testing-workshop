@@ -197,4 +197,4 @@ beforeEach(() => {
 - `cy.screenshot` saves an image with the resolution dependent on the OS settings
 - you can control the device scale factor using CDP
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [01-basic](?p=01-basic) chapter
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [05-customize](?p=05-customize) chapter
