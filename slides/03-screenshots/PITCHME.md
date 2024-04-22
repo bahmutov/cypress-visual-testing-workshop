@@ -5,6 +5,8 @@
 - Taking screenshots with `cy.screenshot` command
 - Comparing images using `odiff` tool
 
+---
+
 ## Taking screenshots
 
 Using branch `b1` as the starting point
@@ -264,4 +266,4 @@ Login error page diff image
 - 3rd-party plugin `odiff` compares "gold" images with the current screenshots
 - even a small CSS change can lead to large image differences
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [01-basic](?p=01-basic) chapter
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [04-ci](?p=04-ci) chapter
