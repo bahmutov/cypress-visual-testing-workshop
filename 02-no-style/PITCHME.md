@@ -4,6 +4,7 @@
 
 - Blocking CSS download using `cy.intercept`
 - Testing the app without styles
+- Where to find Cypress help
 
 ---
 
@@ -85,9 +86,38 @@ beforeEach(() => {
 
 ---
 
+## Where to find help
+
+- Cypress documentation [https://docs.cypress.io/](https://docs.cypress.io/)
+
++++
+
+## Use the search!
+
+![Documentation search](./img/doc1.png)
+
++++
+
+- My Cypress examples (600+) https://glebbahmutov.com/cypress-examples/
+
++++
+
+## Use the search!
+
+![Examples search](./img/doc2.png)
+
++++
+
+My videos, blog posts, examples, courses at https://cypress.tips/search
+
+![My search](./img/doc3.png)
+
+---
+
 ## 🏁 Conclusions
 
 - `cy.intercept` can block network calls
 - our Login works even without styles
+- there are lots of Cypress resources
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [01-basic](?p=01-basic) chapter
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [03-screenshots](?p=03-screenshots) chapter
