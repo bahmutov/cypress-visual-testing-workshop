@@ -181,4 +181,4 @@ it('confirms the light and dark color themes', () => {
 
 - You can emulate print media or color scheme using https://github.com/bahmutov/cypress-cdp and CDP
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents)
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [10-random-robot](?p=10-random-robot)
