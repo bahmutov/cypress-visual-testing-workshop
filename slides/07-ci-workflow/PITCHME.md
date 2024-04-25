@@ -214,4 +214,4 @@ $ npm install
 - CI can commit changed images on PR
 - GitHub PR review shows image differences clearly
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents)
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [08-data](?p=08-data)

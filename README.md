@@ -14,4 +14,5 @@ CI | [04-ci](slides/04-ci/PITCHME.md) | [link](https://glebbahmutov.com/cypress-
 Customize | [05-customize](slides/05-customize/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=05-customize)
 Diff | [06-diff](slides/06-diff/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=06-diff)
 CI workflows | [07-ci-workflow](slides/07-ci-workflow/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=07-ci-workflow)
+Dynamic data | [08-data](slides/08-data/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=08-data)
 <!-- prettier-ignore-end -->
