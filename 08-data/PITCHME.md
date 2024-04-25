@@ -251,4 +251,4 @@ it('shows a visual difference on each run', () => {
 - For timestamps / dates you can use `cy.clock`
 - For data fetched from the server you can use `cy.intercept`
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents)
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [09-print-and-dark](?p=09-print-and-dark)
