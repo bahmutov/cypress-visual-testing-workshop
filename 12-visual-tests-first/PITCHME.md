@@ -177,4 +177,4 @@ cy-grep: will omit filtered tests
 - ignore elements that are likely to change unrelated to the test
 - use `@bahmutov/cy-grep` to add test tags and run visual tests first
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents)
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [end](?p=end)
