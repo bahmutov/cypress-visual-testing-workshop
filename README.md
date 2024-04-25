@@ -18,4 +18,5 @@ Dynamic data | [08-data](slides/08-data/PITCHME.md) | [link](https://glebbahmuto
 Print and Dark | [09-print-and-dark](slides/09-print-and-dark/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=09-print-and-dark)
 Random robot | [10-random-robot](slides/10-random-robot/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=10-random-robot)
 Element diff | [11-element-diff](slides/11-element-diff/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=11-element-diff)
+Visual tests first | [12-visual-tests-first](slides/12-visual-tests-first/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=12-visual-tests-first)
 <!-- prettier-ignore-end -->
