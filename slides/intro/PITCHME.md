@@ -2,7 +2,7 @@
 
 - [github.com/bahmutov/cypress-visual-testing-workshop](https://github.com/bahmutov/cypress-visual-testing-workshop)
 
-Jump to: [00-styles](?p=00-styles), [01-waiting](?p=01-waiting), [02-no-style](?p=02-no-style), [03-screenshots](?p=03-screenshots), [04-ci](?p=04-ci), [05-customize](?p=05-customize), [06-diff](?p=06-diff), [07-ci-workflow](?p=07-ci-workflow), [08-data](?p=08-data), [09-print-and-dark](?p=09-print-and-dark)
+Jump to: [00-styles](?p=00-styles), [01-waiting](?p=01-waiting), [02-no-style](?p=02-no-style), [03-screenshots](?p=03-screenshots), [04-ci](?p=04-ci), [05-customize](?p=05-customize), [06-diff](?p=06-diff), [07-ci-workflow](?p=07-ci-workflow), [08-data](?p=08-data), [09-print-and-dark](?p=09-print-and-dark), [10-random-robot](?p=10-random-robot), [11-element-diff](?p=11-element-diff)
 
 +++
 

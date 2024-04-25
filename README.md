@@ -16,4 +16,6 @@ Diff | [06-diff](slides/06-diff/PITCHME.md) | [link](https://glebbahmutov.com/cy
 CI workflows | [07-ci-workflow](slides/07-ci-workflow/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=07-ci-workflow)
 Dynamic data | [08-data](slides/08-data/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=08-data)
 Print and Dark | [09-print-and-dark](slides/09-print-and-dark/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=09-print-and-dark)
+Random robot | [10-random-robot](slides/10-random-robot/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=10-random-robot)
+Element diff | [11-element-diff](slides/11-element-diff/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=11-element-diff)
 <!-- prettier-ignore-end -->
