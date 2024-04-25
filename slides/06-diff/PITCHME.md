@@ -119,4 +119,4 @@ The current diff image is shown
 - your tests can call `odiff` from the Cypress config file
 - your tests can then report the results of matching the images
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents)
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [07-ci-workflow](?p=07-ci-workflow) chapter
