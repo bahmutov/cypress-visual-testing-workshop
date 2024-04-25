@@ -19,5 +19,6 @@ Print and Dark | [09-print-and-dark](slides/09-print-and-dark/PITCHME.md) | [lin
 Random robot | [10-random-robot](slides/10-random-robot/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=10-random-robot)
 Element diff | [11-element-diff](slides/11-element-diff/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=11-element-diff)
 Visual tests first | [12-visual-tests-first](slides/12-visual-tests-first/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=12-visual-tests-first)
+Visual services | [13-services](slides/13-services/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=13-services)
 The end | [end](slides/end/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=end)
 <!-- prettier-ignore-end -->

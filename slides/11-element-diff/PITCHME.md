@@ -59,7 +59,7 @@ it('diffs an element', () => {
 ```js
 it('diffs an element', () => {
   cy.visit('/')
-  cy.get('.login_credentials_wrap-inner') // function (existence)
+  cy.get('.login_credentials_wrap-inner') // functional (built-in existence)
     .should('be.visible') // functional
     .and('include.text', 'Accepted usernames are:') // functional
     .imageDiff('credentials') // visual
@@ -69,6 +69,8 @@ it('diffs an element', () => {
 +++
 
 ![Credentials element](./img/credentials.png)
+
+The single footer element gold image
 
 ---
 
@@ -131,7 +133,7 @@ it('checks the opened menu', () => {
 
 +++
 
-## Functional vs Visual
+## Functional vs Visual errors
 
 - `expected "Hello" to equal "Bye"`
 
