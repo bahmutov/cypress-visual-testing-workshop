@@ -147,4 +147,4 @@ it('checks the opened menu', () => {
 - functional assertions for important information
 - visual assertions for wide CSS coverage
 
-➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents)
+➡️ Pick the [next section](https://github.com/bahmutov/cypress-visual-testing-workshop#contents) or jump to the [12-visual-tests-first](?p=12-visual-tests-first)
