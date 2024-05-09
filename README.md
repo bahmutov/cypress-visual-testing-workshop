@@ -1,5 +1,7 @@
 # Cypress Visual Testing Workshop
 
+This is a companion workshop to my [Visual Testing With Cypress](https://cypress.tips/courses/visual-testing) online course. You are welcome to study on your own or invite me to teach an online or in-person [workshop](https://cypress.tips/workshops).
+
 ## Contents
 
 <!-- prettier-ignore-start -->
@@ -22,3 +24,28 @@ Visual tests first | [12-visual-tests-first](slides/12-visual-tests-first/PITCHM
 Visual services | [13-services](slides/13-services/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=13-services)
 The end | [end](slides/end/PITCHME.md) | [link](https://glebbahmutov.com/cypress-visual-testing-workshop/?p=end)
 <!-- prettier-ignore-end -->
+
+## Additional information
+
+- https://cypress.tips/
+- https://glebbahmutov.com/cypress-examples/
+- https://www.youtube.com/glebbahmutov
+- https://slides.com/bahmutov
+- https://cypresstips.substack.com/
+- 📝 read [Cypress TodoMVC Questions Answered](https://glebbahmutov.com/blog/cypress-todomvc-questions/)
+- ✅ [Cypress Skills Checklist](https://cypress.tips/skills)
+- https://docs.cypress.io/
+
+## Other workshops
+
+If your organization is interested in learning about Cypress in depth, please contact me. Besides this "Cypress Basics" workshop, I also regularly teach the following workshop.
+
+- https://github.com/bahmutov/cypress-workshop-basics
+- https://github.com/bahmutov/cypress-workshop-ci
+- https://github.com/bahmutov/cypress-workshop-socketio-chat
+
+Of course, I can customize a workshop to your needs, if necessary. Please let me know by getting in touch; you can email me at gleb.bahmutov at gmail.com.
+
+## Author
+
+Gleb Bahmutov has PhD in Computer Science and has worked at Cypress.io for four years as VP of Engineering and Distinguished Engineer, and was heavily involved in all areas of the Test Runner development, as well as Cypress Dashboard features, plugin writing, and CI integration. He has spoken about Cypress approximately a hundred times at meetups and conferences, wrote 100s of blog posts about testing, and has recorded more than 150 Cypress videos available for free on his YouTube channel. Today, Gleb is still heavily using Cypress at a large company making sure its web applications are always working correctly.
